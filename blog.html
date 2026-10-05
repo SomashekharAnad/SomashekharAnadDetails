@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insights | Somashekhar S. Anad</title>
+<meta name="description" content="Technical blog">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#FF000F">
+<meta name="author" content="Somashekhar S. Anad">
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<meta property="og:image" content="images/og-image.png">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="animations/animations.css">
+<link rel="stylesheet" href="ai/assistant.css">
+
+</head>
+<body data-base="">
+<a class="skip" href="#main">Skip to content</a>
+<div id="progress"></div>
+<header class="site"><div class="container nav">
+ <a class="brand" href="index.html" aria-label="Home"><span class="mark">ABB</span><span class="sep"></span><span>Somashekhar S. Anad<small>Industrial IoT &amp; Automation</small></span></a>
+ <nav aria-label="Main"><ul class="menu"><li><a href="index.html" class="">Home</a></li><li><a href="about.html" class="">About</a></li><li><a href="experience.html" class="">Experience</a></li><li><a href="projects.html" class="">Projects</a></li><li><a href="certifications.html" class="">Certifications</a></li><li><a href="blog.html" class="active">Insights</a></li><li><a href="dashboard/index.html" class="">Dashboard</a></li><li><a href="contact.html" class="">Contact</a></li></ul></nav>
+ <div class="actions"><button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">☾</button><button class="icon-btn burger" aria-label="Menu">☰</button></div>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="container"><div class="crumbs"><a href="index.html">Home</a> / Insights</div><br><span class="eyebrow">Insights</span><h1 class="reveal">Notes from the field</h1><p class="reveal d1">Short, practical write-ups on protocols, DCS upgrades and IIoT testing.</p></div></section><section><div class="container"><div class="grid g3" style="margin-bottom:48px"><a class="card top-accent reveal" href="#opcua-vs-modbus"><div class="meta">Protocols · 2026-09-10 · 6 min</div><h3>OPC UA vs Modbus at the edge</h3><p>Modbus is still everywhere in brownfield plants. It is simple, deterministic and supported by nearly every device, but it has no data model and no built-in security.</p><span class="more">Read →</span></a><a class="card top-accent reveal" href="#symphony-plus-upgrade-lessons"><div class="meta">DCS · 2026-08-02 · 7 min</div><h3>Lessons from five Symphony Plus upgrades</h3><p>Upgrading a power-station DCS depends on preparation more than speed.</p><span class="more">Read →</span></a><a class="card top-accent reveal" href="#testing-connect-on-demand"><div class="meta">IIoT · 2026-06-18 · 5 min</div><h3>How we test Connect on Demand</h3><p>Connect on Demand gives engineers remote access only when it is needed. Testing it means proving both that access works and that it closes properly.</p><span class="more">Read →</span></a></div><article id="opcua-vs-modbus" class="card reveal" style="margin-bottom:24px;scroll-margin-top:90px"><div class="meta">Protocols · 2026-09-10 · 6 min read</div><h2 style="margin:8px 0 16px;font-size:28px">OPC UA vs Modbus at the edge</h2><div class="prose"><p>Modbus is still everywhere in brownfield plants. It is simple, deterministic and supported by nearly every device, but it has no data model and no built-in security.</p><p>OPC UA adds a rich information model, certificate-based security and discovery. In Edgenius validation, a common pattern is to keep Modbus at device level and normalize data into OPC UA or PubSub before it leaves the site.</p><p>My checklist: confirm register maps early, test byte order explicitly, validate certificate trust lists on both client and server, and include reconnect scenarios in every test plan.</p></div></article><article id="symphony-plus-upgrade-lessons" class="card reveal" style="margin-bottom:24px;scroll-margin-top:90px"><div class="meta">DCS · 2026-08-02 · 7 min read</div><h2 style="margin:8px 0 16px;font-size:28px">Lessons from five Symphony Plus upgrades</h2><div class="prose"><p>Upgrading a power-station DCS depends on preparation more than speed.</p><p>What worked: freezing the tag database before migration, scripting faceplate checks, and validating redundant server peering before cut-over, not after.</p><p>What I repeat on every project: a firmware compatibility matrix for HC800/CP800/IET800, and a rollback plan rehearsed with the site team.</p></div></article><article id="testing-connect-on-demand" class="card reveal" style="margin-bottom:24px;scroll-margin-top:90px"><div class="meta">IIoT · 2026-06-18 · 5 min read</div><h2 style="margin:8px 0 16px;font-size:28px">How we test Connect on Demand</h2><div class="prose"><p>Connect on Demand gives engineers remote access only when it is needed. Testing it means proving both that access works and that it closes properly.</p><p>Our test cases cover session start and expiry, role permissions, network interruptions and audit logging.</p><p>Every defect report includes the LMS version, topology diagram, logs and exact reproduction steps, which considerably shortens R&amp;D turnaround.</p></div></article></div></section>
+</main>
+<footer class="site"><div class="container foot">
+ <div><span class="internal">ABB INTERNAL</span><br>© 2026 Somashekhar S. Anad · ABB Global · Edgenius IoT · Software Testing Team (STT)<br>Personal professional portfolio for internal ABB use only. Do not distribute externally.</div>
+ <div><a href="mailto:somashekhar.anad@in.abb.com">somashekhar.anad@in.abb.com</a><br><a href="tel:+919591557311">+91 95915 57311</a><br><a href="resume/index.html">Resume</a> · <a href="downloads/index.html">Downloads</a> · <a href="github/index.html">Code</a> · <a href="sitemap.xml">Sitemap</a></div>
+</div></footer>
+<button id="top" class="icon-btn" aria-label="Back to top" onclick="scrollTo({top:0})">↑</button>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="ai/assistant.js"></script>
+</body>
+</html>

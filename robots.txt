@@ -1,0 +1,3 @@
+# Internal ABB portfolio – do not index
+User-agent: *
+Disallow: /

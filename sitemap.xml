@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR-INTERNAL-HOST with the internal hosting URL -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/index.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/about.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/experience.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/certifications.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/blog.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/contact.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/resume/index.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/dashboard/index.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/downloads/index.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/github/index.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/edgenius-lms-cod.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/800xa-symphony-interop.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/ntpc-symphony-upgrade.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/jsw-commissioning.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/sugar-waste-level.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/pid-temp-level.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/realtime-simulator.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/projects/mcc-plc-panel.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/certifications/plc.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/certifications/scada-hmi.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/certifications/panel.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/certifications/protocols.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/certifications/symphony.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>https://YOUR-INTERNAL-HOST/portfolio/certifications/edgenius.html</loc><lastmod>2026-10-05</lastmod></url>
+</urlset>
