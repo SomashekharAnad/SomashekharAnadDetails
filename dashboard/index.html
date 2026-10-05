@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard | Somashekhar S. Anad</title>
+<meta name="description" content="Portfolio dashboard">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#FF000F">
+<meta name="author" content="Somashekhar S. Anad">
+<link rel="icon" href="../favicon.ico">
+<link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+<meta property="og:image" content="../images/og-image.png">
+<link rel="manifest" href="../manifest.json">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../animations/animations.css">
+<link rel="stylesheet" href="../ai/assistant.css">
+
+</head>
+<body data-base="../">
+<a class="skip" href="#main">Skip to content</a>
+<div id="progress"></div>
+<header class="site"><div class="container nav">
+ <a class="brand" href="../index.html" aria-label="Home"><span class="mark">ABB</span><span class="sep"></span><span>Somashekhar S. Anad<small>Industrial IoT &amp; Automation</small></span></a>
+ <nav aria-label="Main"><ul class="menu"><li><a href="../index.html" class="">Home</a></li><li><a href="../about.html" class="">About</a></li><li><a href="../experience.html" class="">Experience</a></li><li><a href="../projects.html" class="">Projects</a></li><li><a href="../certifications.html" class="">Certifications</a></li><li><a href="../blog.html" class="">Insights</a></li><li><a href="../dashboard/index.html" class="active">Dashboard</a></li><li><a href="../contact.html" class="">Contact</a></li></ul></nav>
+ <div class="actions"><button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">☾</button><button class="icon-btn burger" aria-label="Menu">☰</button></div>
+</div></header>
+<main id="main">
+<section class="page-hero"><div class="container"><div class="crumbs"><a href="../index.html">Home</a> / Dashboard</div><br><span class="eyebrow">Dashboard</span><h1 class="reveal">Portfolio dashboard</h1><p class="reveal d1">A visual summary of skills, projects and a simulated IIoT protocol monitor.</p></div></section><section><div class="container">
+<div class="grid g4" style="margin-bottom:22px"><div class="card stat"><div class="num" data-count="8">0</div><div class="lbl">Case studies</div></div><div class="card stat"><div class="num" data-count="20">0</div><div class="lbl">Tracked skills</div></div><div class="card stat"><div class="num" data-count="4">0</div><div class="lbl">Roles</div></div><div class="card stat"><div class="num" data-count="6">0</div><div class="lbl">Competencies</div></div></div>
+<div class="grid g2"><div class="card reveal"><h3>Skill radar</h3><svg id="radar" viewBox="0 0 320 320" style="width:100%;max-width:380px;margin:auto;display:block;color:var(--ink)"></svg></div>
+<div class="card reveal d1"><h3>Top skills</h3><div id="bars"></div></div>
+<div class="card reveal"><h3>Projects by domain</h3><div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap"><svg id="donut" viewBox="0 0 180 180" style="width:180px;color:var(--ink)"></svg><div id="legend" style="flex:1;min-width:140px"></div></div></div>
+<div class="card reveal d1"><h3><span class="live-dot"></span>&nbsp; Protocol monitor <small style="color:var(--muted);font-weight:400">(simulated demo)</small></h3>
+<table style="width:100%;border-collapse:collapse;font-size:14px;margin-top:10px"><thead><tr style="text-align:left;color:var(--muted)"><th>Channel</th><th>Status</th><th>Latency</th><th>Throughput</th></tr></thead><tbody id="monitor"></tbody></table></div></div></div></section>
+</main>
+<footer class="site"><div class="container foot">
+ <div><span class="internal">ABB INTERNAL</span><br>© 2026 Somashekhar S. Anad · ABB Global · Edgenius IoT · Software Testing Team (STT)<br>Personal professional portfolio for internal ABB use only. Do not distribute externally.</div>
+ <div><a href="mailto:somashekhar.anad@in.abb.com">somashekhar.anad@in.abb.com</a><br><a href="tel:+919591557311">+91 95915 57311</a><br><a href="../resume/index.html">Resume</a> · <a href="../downloads/index.html">Downloads</a> · <a href="../github/index.html">Code</a> · <a href="../sitemap.xml">Sitemap</a></div>
+</div></footer>
+<button id="top" class="icon-btn" aria-label="Back to top" onclick="scrollTo({top:0})">↑</button>
+<script src="../js/data.js"></script>
+<script src="../js/main.js"></script>
+<script src="../ai/assistant.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>
