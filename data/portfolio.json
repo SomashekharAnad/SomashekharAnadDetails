@@ -1,0 +1,460 @@
+{
+  "name": "Somashekhar S. Anad",
+  "short": "Somashekhar",
+  "title": "Application Engineer – Industrial IoT & Automation",
+  "org": "ABB Global · Edgenius IoT · Software Testing Team (STT)",
+  "phone": "+91 95915 57311",
+  "phoneRaw": "+919591557311",
+  "email": "somashekhar.anad@in.abb.com",
+  "location": "Karnataka, India",
+  "languages": [
+    "English",
+    "Hindi",
+    "Kannada",
+    "Telugu"
+  ],
+  "summary": "Automation and Industrial IoT engineer with 3+ years across ABB Edgenius IoT, Symphony Plus and 800xA. I configure, test and validate secure edge-to-cloud data flows over OPC UA, Modbus and PubSub, and have delivered Symphony Plus upgrades and commissioning at major NTPC and JSW power stations.",
+  "objective": "To apply my technical expertise, passion and dedication to organizational growth, with a focus on continuous learning, system optimization and innovative automation solutions in industrial environments.",
+  "stats": [
+    [
+      "3.3",
+      "Years experience"
+    ],
+    [
+      "5",
+      "NTPC stations upgraded"
+    ],
+    [
+      "10+",
+      "Industrial protocols & platforms"
+    ],
+    [
+      "2",
+      "Global teams (DE · IN)"
+    ]
+  ],
+  "experience": [
+    {
+      "role": "Application Engineer (TPC)",
+      "company": "ABB Global – Edgenius IoT, Software Testing Team",
+      "via": "via Axcend Automation Pvt. Ltd.",
+      "period": "Current",
+      "tags": [
+        "Edgenius",
+        "LMS",
+        "COD",
+        "OPC UA",
+        "Modbus",
+        "800xA",
+        "Symphony Plus",
+        "AC500"
+      ],
+      "points": [
+        "Configure, deploy and test Local Managed Servers (LMS) for edge data connectivity",
+        "Implement Connect on Demand (COD) for secure, on-demand cloud access to distributed automation assets",
+        "Simulate, test and validate complex channel flows on ABB 800xA SCADA/DCS",
+        "Validate Symphony Plus real-time system and IoT gateway interoperability",
+        "Configure OPC UA client/server and Modbus for legacy and modern device communication",
+        "Integrate Field Information Manager (FIM), PubSub and SCADA Data Gateway for event-driven data routing",
+        "Commission and validate AC500 PLC controllers",
+        "Write and run end-to-end test cases for multi-protocol secure data flows; root cause analysis and bug reporting to R&D",
+        "Prepare compliance checklists and detailed test reports",
+        "Work with teams in Germany and India; support CI/CD pipelines for rapid firmware/software deployment"
+      ]
+    },
+    {
+      "role": "Automation Engineer",
+      "company": "ABB TPC",
+      "via": "via Aideas Engineering Pvt. Ltd.",
+      "period": "Previous",
+      "tags": [
+        "Symphony Plus",
+        "HC800",
+        "CP800",
+        "IET800",
+        "NTPC",
+        "AutoCAD"
+      ],
+      "points": [
+        "Hardware configuration and firmware upgrades for IET800, HC800, CP800 and NTCL C-Net Loop",
+        "Installed, configured and commissioned Symphony Plus Engineering, History and Operation Servers",
+        "Managed tag, alarm, event, external tag, calculation, trend and user-role databases",
+        "Built graphics, faceplates, scripts and symbols; set up redundant server peering and reports",
+        "Delivered complete engineering upgrades for NTPC Barh, Vindhyanachal, Kahalgaon, Singrauli and Farakka",
+        "HMI upgrades and Symphony Plus version migrations",
+        "Commissioned JSW Bharat units with Symphony Plus software and SD controllers",
+        "I/O configuration, panel wiring and control circuit design in AutoCAD"
+      ]
+    },
+    {
+      "role": "Automation Engineer",
+      "company": "Creative Automation & Controls",
+      "via": "",
+      "period": "6 months",
+      "tags": [
+        "Allen Bradley",
+        "CompactLogix 5370",
+        "FactoryTalk View",
+        "PanelView 700"
+      ],
+      "points": [
+        "Waste-level management automation for the sugar industry",
+        "Allen Bradley CompactLogix 5370 programming in LAD and FBD",
+        "SCADA in FactoryTalk View and HMI on PanelView 700",
+        "Control hardware design and wiring with sensors, pneumatics and relays"
+      ]
+    },
+    {
+      "role": "Intern",
+      "company": "Just Engineering, Pune",
+      "via": "",
+      "period": "6 months",
+      "tags": [
+        "PLC",
+        "SCADA",
+        "HMI",
+        "P&ID",
+        "Panel design"
+      ],
+      "points": [
+        "P&ID design and electrical drawings",
+        "PLC, HMI and SCADA programming; system commissioning"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "edgenius-lms-cod",
+      "title": "Edgenius LMS & Connect on Demand Validation",
+      "cat": "IIoT",
+      "when": "ABB Global",
+      "stack": [
+        "ABB Edgenius",
+        "LMS",
+        "COD",
+        "OPC UA",
+        "PubSub",
+        "CI/CD"
+      ],
+      "summary": "End-to-end validation of secure edge-to-cloud connectivity for distributed automation assets.",
+      "challenge": "Distributed sites need secure, on-demand cloud access without permanently exposing control networks.",
+      "approach": "Deployed and configured Local Managed Servers, set up Connect on Demand sessions, and built multi-protocol test cases covering OPC UA, Modbus and PubSub data paths.",
+      "outcome": "Reproducible test suites, root-cause reports for R&D and compliance checklists that support faster CI/CD-driven releases."
+    },
+    {
+      "slug": "800xa-symphony-interop",
+      "title": "800xA & Symphony Plus IoT Interoperability",
+      "cat": "IIoT",
+      "when": "ABB Global",
+      "stack": [
+        "800xA",
+        "Symphony Plus",
+        "FIM",
+        "SCADA Data Gateway",
+        "AC500"
+      ],
+      "summary": "Validated channel flows between ABB DCS platforms, IoT gateways and field controllers.",
+      "challenge": "Complex channel flows must stay consistent across DCS, gateway and controller layers.",
+      "approach": "Simulated 800xA and Symphony Plus systems, mapped real-time data through SCADA Data Gateway and FIM, and commissioned AC500 controllers as test endpoints.",
+      "outcome": "Verified interoperability, with defects documented and clear reproduction steps for the global team."
+    },
+    {
+      "slug": "ntpc-symphony-upgrade",
+      "title": "NTPC Symphony Plus Engineering Upgrades",
+      "cat": "DCS",
+      "when": "ABB TPC",
+      "stack": [
+        "Symphony Plus",
+        "HC800",
+        "CP800",
+        "IET800",
+        "S+ Operations"
+      ],
+      "summary": "Complete engineering upgrades for NTPC Barh, Vindhyanachal, Kahalgaon, Singrauli and Farakka.",
+      "challenge": "Migrate power-station control systems to newer Symphony Plus versions with minimal disruption.",
+      "approach": "Upgraded IET800/HC800/CP800 firmware, rebuilt server databases, migrated HMIs and graphics, and configured redundant server peering.",
+      "outcome": "Version migration and HMI upgrades completed across five NTPC stations."
+    },
+    {
+      "slug": "jsw-commissioning",
+      "title": "JSW Bharat Unit Commissioning",
+      "cat": "DCS",
+      "when": "ABB TPC",
+      "stack": [
+        "Symphony Plus",
+        "SD Controllers",
+        "Engineering Server",
+        "History Server"
+      ],
+      "summary": "Commissioned JSW Bharat units on Symphony Plus with SD-series controllers.",
+      "challenge": "Bring new units online with full engineering, history and operations capability.",
+      "approach": "Installed and configured S+ servers and built tag, alarm and event databases, faceplates and reports.",
+      "outcome": "Units commissioned with complete operator and engineering environments."
+    },
+    {
+      "slug": "sugar-waste-level",
+      "title": "Sugar Industry Waste Level Management",
+      "cat": "PLC",
+      "when": "Creative Automation",
+      "stack": [
+        "CompactLogix 5370",
+        "LAD/FBD",
+        "FactoryTalk View",
+        "PanelView 700"
+      ],
+      "summary": "PLC-based process automation for waste-level management.",
+      "challenge": "Manual level monitoring was unreliable and labour-intensive.",
+      "approach": "Programmed Allen Bradley logic, built SCADA and HMI screens, and wired sensors, pneumatics and relays.",
+      "outcome": "Automated level control with operator visibility through SCADA and HMI."
+    },
+    {
+      "slug": "pid-temp-level",
+      "title": "Temperature & Level PID Process Control",
+      "cat": "PLC",
+      "when": "Internship",
+      "stack": [
+        "Allen Bradley PLC",
+        "FactoryTalk View",
+        "PanelView",
+        "PID"
+      ],
+      "summary": "Closed-loop PID control of temperature and level, with process simulation and security features.",
+      "challenge": "Hold stable setpoints for coupled temperature and level loops.",
+      "approach": "Tuned PID loops in the PLC, built SCADA/HMI with role-based security, and validated against simulation.",
+      "outcome": "Stable control loops and a secured operator interface."
+    },
+    {
+      "slug": "realtime-simulator",
+      "title": "Industrial Real-Time Simulator Integration",
+      "cat": "PLC",
+      "when": "Internship",
+      "stack": [
+        "PLC",
+        "Simulation",
+        "Conveyor",
+        "Robotics"
+      ],
+      "summary": "PLC programs for conveyor, robotics, automated warehouse and sorting machine simulations.",
+      "challenge": "Test control logic without physical machinery.",
+      "approach": "Connected PLC programs to a real-time industrial simulator modelling several machine types.",
+      "outcome": "Sequencing logic validated for four machine scenarios."
+    },
+    {
+      "slug": "mcc-plc-panel",
+      "title": "MCC & PLC Panel Design",
+      "cat": "Panel",
+      "when": "Internship",
+      "stack": [
+        "AutoCAD",
+        "BOM",
+        "Wiring",
+        "Commissioning"
+      ],
+      "summary": "Control panel design from component selection through testing and commissioning.",
+      "challenge": "Deliver a compliant, maintainable panel on schedule.",
+      "approach": "Selected components, prepared the BOM, drew wiring diagrams, then wired, tested and commissioned.",
+      "outcome": "Commissioned MCC/PLC panel with complete documentation."
+    }
+  ],
+  "skills": [
+    {
+      "group": "ABB Platforms",
+      "items": [
+        [
+          "Symphony Plus",
+          92
+        ],
+        [
+          "Edgenius IoT",
+          88
+        ],
+        [
+          "ABB 800xA",
+          82
+        ],
+        [
+          "FIM / SCADA Data Gateway",
+          80
+        ],
+        [
+          "AC500 PLC",
+          78
+        ]
+      ]
+    },
+    {
+      "group": "Protocols",
+      "items": [
+        [
+          "OPC UA",
+          88
+        ],
+        [
+          "Modbus",
+          86
+        ],
+        [
+          "PubSub",
+          80
+        ],
+        [
+          "Ethernet/IP",
+          72
+        ],
+        [
+          "Fieldbus",
+          70
+        ]
+      ]
+    },
+    {
+      "group": "PLC & SCADA",
+      "items": [
+        [
+          "Rockwell RSLogix 500/5000",
+          82
+        ],
+        [
+          "FactoryTalk View",
+          82
+        ],
+        [
+          "Siemens TIA Portal / Simatic",
+          70
+        ],
+        [
+          "Siemens WinCC",
+          68
+        ],
+        [
+          "Mitsubishi GX Works 2",
+          62
+        ]
+      ]
+    },
+    {
+      "group": "Engineering & Testing",
+      "items": [
+        [
+          "Firmware upgrade & commissioning",
+          90
+        ],
+        [
+          "Test design & RCA",
+          88
+        ],
+        [
+          "Compliance documentation",
+          85
+        ],
+        [
+          "Panel design (AutoCAD)",
+          75
+        ],
+        [
+          "CI/CD support",
+          65
+        ]
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "slug": "plc",
+      "title": "PLC Programming",
+      "issuer": "Hands-on industrial training",
+      "area": "Automation",
+      "desc": "Allen Bradley, Siemens and Mitsubishi PLC programming in LAD and FBD."
+    },
+    {
+      "slug": "scada-hmi",
+      "title": "SCADA & HMI Development",
+      "issuer": "Hands-on industrial training",
+      "area": "Automation",
+      "desc": "FactoryTalk View, WinCC and PanelView screen design, alarms and security."
+    },
+    {
+      "slug": "panel",
+      "title": "Control Panel Design",
+      "issuer": "Hands-on industrial training",
+      "area": "Hardware",
+      "desc": "Component selection, BOM, wiring, testing and commissioning."
+    },
+    {
+      "slug": "protocols",
+      "title": "Industrial Communication Protocols",
+      "issuer": "Hands-on industrial training",
+      "area": "Connectivity",
+      "desc": "OPC UA, Modbus, Ethernet/IP and Fieldbus."
+    },
+    {
+      "slug": "symphony",
+      "title": "Symphony Plus Engineering",
+      "issuer": "ABB TPC project experience",
+      "area": "ABB",
+      "desc": "S+ Engineering, History and Operation servers, firmware and HMI migration."
+    },
+    {
+      "slug": "edgenius",
+      "title": "Edgenius IoT Validation",
+      "issuer": "ABB Global project experience",
+      "area": "ABB",
+      "desc": "LMS, Connect on Demand and multi-protocol data-flow testing."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. Electronics & Instrumentation Engineering",
+      "school": "Basaveshwar Engineering College, Bagalkot (VTU)",
+      "year": "2022"
+    },
+    {
+      "degree": "PUC – Science",
+      "school": "Sri Chaitanya PU College, Bangalore",
+      "year": "2017"
+    },
+    {
+      "degree": "Class 10 (CBSE)",
+      "school": "Basaveshwar International Public School, Bagalkot",
+      "year": "2015"
+    }
+  ],
+  "blog": [
+    {
+      "slug": "opcua-vs-modbus",
+      "title": "OPC UA vs Modbus at the edge",
+      "date": "2026-09-10",
+      "tag": "Protocols",
+      "mins": 6,
+      "body": [
+        "Modbus is still everywhere in brownfield plants. It is simple, deterministic and supported by nearly every device, but it has no data model and no built-in security.",
+        "OPC UA adds a rich information model, certificate-based security and discovery. In Edgenius validation, a common pattern is to keep Modbus at device level and normalize data into OPC UA or PubSub before it leaves the site.",
+        "My checklist: confirm register maps early, test byte order explicitly, validate certificate trust lists on both client and server, and include reconnect scenarios in every test plan."
+      ]
+    },
+    {
+      "slug": "symphony-plus-upgrade-lessons",
+      "title": "Lessons from five Symphony Plus upgrades",
+      "date": "2026-08-02",
+      "tag": "DCS",
+      "mins": 7,
+      "body": [
+        "Upgrading a power-station DCS depends on preparation more than speed.",
+        "What worked: freezing the tag database before migration, scripting faceplate checks, and validating redundant server peering before cut-over, not after.",
+        "What I repeat on every project: a firmware compatibility matrix for HC800/CP800/IET800, and a rollback plan rehearsed with the site team."
+      ]
+    },
+    {
+      "slug": "testing-connect-on-demand",
+      "title": "How we test Connect on Demand",
+      "date": "2026-06-18",
+      "tag": "IIoT",
+      "mins": 5,
+      "body": [
+        "Connect on Demand gives engineers remote access only when it is needed. Testing it means proving both that access works and that it closes properly.",
+        "Our test cases cover session start and expiry, role permissions, network interruptions and audit logging.",
+        "Every defect report includes the LMS version, topology diagram, logs and exact reproduction steps, which considerably shortens R&D turnaround."
+      ]
+    }
+  ]
+}
